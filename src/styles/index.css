@@ -1,3 +1,4 @@
-/* 
-    General Styles
-*/
+body {
+    background: linear-gradient(black, white, black, white, black);
+    font-family: 'Ubuntu';
+}
