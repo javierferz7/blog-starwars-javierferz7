@@ -27,11 +27,7 @@ export const CharDetails = () => {
                 </div>
             </div>
             <div className="details d-flex text-white justify-content-around mt-4 fs-6">
-                <div className="info">
-                    <p className="info-title"><strong>Hair Color</strong></p>
-                    <p className="info-title">{param.result.properties.hair_color}</p>
-                </div>
-                <div className="info-div info">
+            <div className="info">
                     <p className="info-title"><strong>Birth Year</strong></p>
                     <p className="info-title">{param.result.properties.birth_year}</p>
                 </div>
@@ -42,6 +38,10 @@ export const CharDetails = () => {
                 <div className="info-div info">
                     <p className="info-title"><strong>Height</strong></p>
                     <p className="info-title">{param.result.properties.height}</p>
+                </div>
+                <div className="info-div info">
+                    <p className="info-title"><strong>Hair Color</strong></p>
+                    <p className="info-title">{param.result.properties.hair_color}</p>
                 </div>
                 <div className="info-div info">
                     <p className="info-title"><strong>Skin Color</strong></p>
